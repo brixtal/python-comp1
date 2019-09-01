@@ -12,7 +12,7 @@ def media_4_numeros (a,b,c,d):
 #QUESTÃO 2
 def bombom(dinheiro, preco):
     """Esta função recebe o preço de um produto, o total de dinheiro que a pessoa possui e retorna a quantidade total de produtos que a pessoa pode comprar"""
-    return preco//dinheiro
+    return dinheiro//preco
 def troco(dinheiro, preco):
     """Esta função recebe o preço de um produto, o total de dinheiro que a pessoa possui e retorna o quanto de troco ela recebe se comprar todos os produtos que puder"""
     return dinheiro - bombom(dinheiro, preco)*preco
